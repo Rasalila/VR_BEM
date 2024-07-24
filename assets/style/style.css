@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+}
+.basket {
+  margin-right: 8%;
+}
+
+.main__h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main {
+  margin-left: 7.7%;
+}
+.main__sections {
+  display: grid;
+  /* здесь понимаю, что неправильно выставляю настройки грида, но не знаю какие правильные: расстояние между картинками больше, чем на макете */
+  grid-template-columns: repeat(3, minmax(365px, 1fr));
+  min-width: 10%;
+  min-height: 10%;
+  margin-bottom: 6%;
+}
+
+.main__sections_section {
+  max-width: 365px;
+  margin-bottom: 2%;
+}
+
+.main__sections_h2 {
+  max-width: 365px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #000000;
+}
+.main__sections_text {
+  max-width: 365px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* contact */
+.main__sections_section_contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 365px;
+  background-color: #ec615b;
+}
+.main__sections_h2_contact {
+  max-width: 365px;
+  margin-left: 4%;
+  margin-bottom: 2%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  color: white;
+}
+.d-flex {
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+.main__bottan_contact {
+  margin-left: 4%;
+}
+
+/* footer */
+.footer {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.footer__nav_ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5.4%;
+  gap: 6%;
+}
+.nav_item {
+  display: inline;
+
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: black;
+  text-decoration: none;
+}
